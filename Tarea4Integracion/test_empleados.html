@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruebas de Transformaciones XSLT - Empleados</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f5f5f5; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .test-section { background: white; padding: 20px; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .test-title { color: #28a745; font-size: 18px; font-weight: bold; margin-bottom: 10px; }
+        .test-description { color: #666; margin-bottom: 15px; }
+        .test-link { display: inline-block; background: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin: 5px; }
+        .test-link:hover { background: #1e7e34; }
+        h1 { text-align: center; color: #333; }
+        .instructions { background: #e8f5e8; padding: 15px; border-radius: 8px; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>👥 Pruebas de Transformaciones XSLT - Registro de Empleados</h1>
+        
+        <div class="instructions">
+            <h3>📋 Instrucciones para probar:</h3>
+            <ol>
+                <li>Haz clic en cada enlace de prueba</li>
+                <li>Se abrirá una nueva pestaña con la transformación</li>
+                <li>Verifica que la transformación funcione correctamente</li>
+                <li>Si no funciona, verifica que los archivos XML y XSL estén en la misma carpeta</li>
+            </ol>
+        </div>
+
+        <div class="test-section">
+            <div class="test-title">1. Agrupar empleados por departamento</div>
+            <div class="test-description">Agrupa empleados por departamento en tabla HTML con información completa</div>
+            <a href="registro_empleados.xml" class="test-link" target="_blank">Ver XML Original</a>
+            <a href="empleados1_agrupar_por_departamento.xsl" class="test-link" target="_blank">Ver XSL</a>
+        </div>
+
+        <div class="test-section">
+            <div class="test-title">2. Salario promedio por departamento</div>
+            <div class="test-description">Calcula y muestra el salario promedio de cada departamento</div>
+            <a href="empleados2_salario_promedio.xsl" class="test-link" target="_blank">Ver XSL</a>
+        </div>
+
+        <div class="test-section">
+            <div class="test-title">3. Filtrar empleados a tiempo completo</div>
+            <div class="test-description">Filtra y muestra solo empleados que trabajan a tiempo completo</div>
+            <a href="empleados3_filtrar_tiempo_completo.xsl" class="test-link" target="_blank">Ver XSL</a>
+        </div>
+
+        <div class="test-section">
+            <div class="test-title">4. Informe de antigüedad</div>
+            <div class="test-description">Muestra empleados ordenados por fecha de contratación (más antiguos primero)</div>
+            <a href="empleados4_informe_antiguedad.xsl" class="test-link" target="_blank">Ver XSL</a>
+        </div>
+
+        <div class="test-section">
+            <div class="test-title">5. Vista jerárquica de departamentos</div>
+            <div class="test-description">Muestra estructura jerárquica de la empresa con departamentos y empleados</div>
+            <a href="empleados5_vista_jerarquica.xsl" class="test-link" target="_blank">Ver XSL</a>
+        </div>
+
+        <div class="instructions">
+            <h3>🔧 Para probar las transformaciones:</h3>
+            <p><strong>Opción A:</strong> Usa un navegador que soporte XSLT (Firefox, Chrome con extensión)</p>
+            <p><strong>Opción B:</strong> Usa herramientas online como <a href="https://www.freeformatter.com/xsl-transformer.html" target="_blank">FreeFormatter XSL Transformer</a></p>
+            <p><strong>Opción C:</strong> Usa herramientas de línea de comandos (ver instrucciones abajo)</p>
+        </div>
+    </div>
+</body>
+</html>

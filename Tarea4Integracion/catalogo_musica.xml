@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo_musica>
+    <album id="1">
+        <titulo>Thriller</titulo>
+        <año_lanzamiento>1982</año_lanzamiento>
+        <genero>Pop</genero>
+        <artista>
+            <nombre>Michael Jackson</nombre>
+            <pais_origen>Estados Unidos</pais_origen>
+        </artista>
+        <canciones>
+            <cancion>
+                <titulo>Wanna Be Startin' Somethin'</titulo>
+                <duracion>6:03</duracion>
+                <es_sencillo>false</es_sencillo>
+            </cancion>
+            <cancion>
+                <titulo>Baby Be Mine</titulo>
+                <duracion>4:20</duracion>
+                <es_sencillo>false</es_sencillo>
+            </cancion>
+            <cancion>
+                <titulo>The Girl Is Mine</titulo>
+                <duracion>3:42</duracion>
+                <es_sencillo>true</es_sencillo>
+            </cancion>
+            <cancion>
+                <titulo>Thriller</titulo>
+                <duracion>5:57</duracion>
+                <es_sencillo>true</es_sencillo>
+            </cancion>
+            <cancion>
+                <titulo>Beat It</titulo>
+                <duracion>4:18</duracion>
+                <es_sencillo>true</es_sencillo>
+            </cancion>
+        </canciones>
+    </album>
+
+    <album id="2">
+        <titulo>Abbey Road</titulo>
+        <año_lanzamiento>1969</año_lanzamiento>
+        <genero>Rock</genero>
+        <artista>
+            <nombre>The Beatles</nombre>
+            <pais_origen>Reino Unido</pais_origen>
+        </artista>
+        <canciones>
+            <cancion>
+                <titulo>Come Together</titulo>
+                <duracion>4:20</duracion>
+                <es_sencillo>true</es_sencillo>
+            </cancion>
+            <cancion>
+                <titulo>Something</titulo>
+                <duracion>3:03</duracion>
+                <es_sencillo>true</es_sencillo>
+            </cancion>
+            <cancion>
+                <titulo>Maxwell's Silver Hammer</titulo>
+                <duracion>3:27</duracion>
+                <es_sencillo>false</es_sencillo>
+            </cancion>
+            <cancion>
+                <titulo>Oh! Darling</titulo>
+                <duracion>3:26</duracion>
+                <es_sencillo>false</es_sencillo>
+            </cancion>
+            <cancion>
+                <titulo>Here Comes the Sun</titulo>
+                <duracion>3:05</duracion>
+                <es_sencillo>true</es_sencillo>
+            </cancion>
+        </canciones>
+    </album>
+
+    <album id="3">
+        <titulo>Kind of Blue</titulo>
+        <año_lanzamiento>1959</año_lanzamiento>
+        <genero>Jazz</genero>
+        <artista>
+            <nombre>Miles Davis</nombre>
+            <pais_origen>Estados Unidos</pais_origen>
+        </artista>
+        <canciones>
+            <cancion>
+                <titulo>So What</titulo>
+                <duracion>9:22</duracion>
+                <es_sencillo>false</es_sencillo>
+            </cancion>
+            <cancion>
+                <titulo>Freddie Freeloader</titulo>
+                <duracion>9:46</duracion>
+                <es_sencillo>false</es_sencillo>
+            </cancion>
+            <cancion>
+                <titulo>Blue in Green</titulo>
+                <duracion>5:37</duracion>
+                <es_sencillo>false</es_sencillo>
+            </cancion>
+            <cancion>
+                <titulo>All Blues</titulo>
+                <duracion>11:33</duracion>
+                <es_sencillo>false</es_sencillo>
+            </cancion>
+            <cancion>
+                <titulo>Flamenco Sketches</titulo>
+                <duracion>9:26</duracion>
+                <es_sencillo>false</es_sencillo>
+            </cancion>
+        </canciones>
+    </album>
+
+    <album id="4">
+        <titulo>Back to Black</titulo>
+        <año_lanzamiento>2006</año_lanzamiento>
+        <genero>R&B</genero>
+        <artista>
+            <nombre>Amy Winehouse</nombre>
+            <pais_origen>Reino Unido</pais_origen>
+        </artista>
+        <canciones>
+            <cancion>
+                <titulo>Rehab</titulo>
+                <duracion>3:34</duracion>
+                <es_sencillo>true</es_sencillo>
+            </cancion>
+            <cancion>
+                <titulo>You Know I'm No Good</titulo>
+                <duracion>4:17</duracion>
+                <es_sencillo>true</es_sencillo>
+            </cancion>
+            <cancion>
+                <titulo>Me & Mr Jones</titulo>
+                <duracion>2:33</duracion>
+                <es_sencillo>false</es_sencillo>
+            </cancion>
+            <cancion>
+                <titulo>Back to Black</titulo>
+                <duracion>4:01</duracion>
+                <es_sencillo>true</es_sencillo>
+            </cancion>
+            <cancion>
+                <titulo>Love Is a Losing Game</titulo>
+                <duracion>2:35</duracion>
+                <es_sencillo>false</es_sencillo>
+            </cancion>
+        </canciones>
+    </album>
+
+    <album id="5">
+        <titulo>Random Access Memories</titulo>
+        <año_lanzamiento>2013</año_lanzamiento>
+        <genero>Electronic</genero>
+        <artista>
+            <nombre>Daft Punk</nombre>
+            <pais_origen>Francia</pais_origen>
+        </artista>
+        <canciones>
+            <cancion>
+                <titulo>Give Life Back to Music</titulo>
+                <duracion>4:35</duracion>
+                <es_sencillo>false</es_sencillo>
+            </cancion>
+            <cancion>
+                <titulo>The Game of Love</titulo>
+                <duracion>3:21</duracion>
+                <es_sencillo>false</es_sencillo>
+            </cancion>
+            <cancion>
+                <titulo>Giorgio by Moroder</titulo>
+                <duracion>9:04</duracion>
+                <es_sencillo>false</es_sencillo>
+            </cancion>
+            <cancion>
+                <titulo>Within</titulo>
+                <duracion>3:48</duracion>
+                <es_sencillo>false</es_sencillo>
+            </cancion>
+            <cancion>
+                <titulo>Get Lucky</titulo>
+                <duracion>6:09</duracion>
+                <es_sencillo>true</es_sencillo>
+            </cancion>
+        </canciones>
+    </album>
+</catalogo_musica>

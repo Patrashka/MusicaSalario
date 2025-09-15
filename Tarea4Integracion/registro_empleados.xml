@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registro_empleados>
+    <empleado id="1">
+        <nombre>Juan</nombre>
+        <apellido>García</apellido>
+        <posicion>Desarrollador Senior</posicion>
+        <departamento>
+            <nombre>Desarrollo de Software</nombre>
+            <localizacion>Madrid, España</localizacion>
+        </departamento>
+        <salario>65000</salario>
+        <fecha_contratacion>2020-03-15</fecha_contratacion>
+        <tiempo_completo>true</tiempo_completo>
+    </empleado>
+
+    <empleado id="2">
+        <nombre>María</nombre>
+        <apellido>López</apellido>
+        <posicion>Diseñadora UX</posicion>
+        <departamento>
+            <nombre>Diseño</nombre>
+            <localizacion>Barcelona, España</localizacion>
+        </departamento>
+        <salario>45000</salario>
+        <fecha_contratacion>2021-07-22</fecha_contratacion>
+        <tiempo_completo>true</tiempo_completo>
+    </empleado>
+
+    <empleado id="3">
+        <nombre>Carlos</nombre>
+        <apellido>Martínez</apellido>
+        <posicion>Analista de Datos</posicion>
+        <departamento>
+            <nombre>Análisis de Datos</nombre>
+            <localizacion>Valencia, España</localizacion>
+        </departamento>
+        <salario>52000</salario>
+        <fecha_contratacion>2019-11-08</fecha_contratacion>
+        <tiempo_completo>true</tiempo_completo>
+    </empleado>
+
+    <empleado id="4">
+        <nombre>Ana</nombre>
+        <apellido>Rodríguez</apellido>
+        <posicion>Gerente de Proyectos</posicion>
+        <departamento>
+            <nombre>Gestión de Proyectos</nombre>
+            <localizacion>Sevilla, España</localizacion>
+        </departamento>
+        <salario>58000</salario>
+        <fecha_contratacion>2018-05-12</fecha_contratacion>
+        <tiempo_completo>true</tiempo_completo>
+    </empleado>
+
+    <empleado id="5">
+        <nombre>David</nombre>
+        <apellido>Fernández</apellido>
+        <posicion>Desarrollador Junior</posicion>
+        <departamento>
+            <nombre>Desarrollo de Software</nombre>
+            <localizacion>Madrid, España</localizacion>
+        </departamento>
+        <salario>35000</salario>
+        <fecha_contratacion>2022-01-10</fecha_contratacion>
+        <tiempo_completo>true</tiempo_completo>
+    </empleado>
+
+    <empleado id="6">
+        <nombre>Laura</nombre>
+        <apellido>Sánchez</apellido>
+        <posicion>Especialista en Marketing</posicion>
+        <departamento>
+            <nombre>Marketing</nombre>
+            <localizacion>Bilbao, España</localizacion>
+        </departamento>
+        <salario>42000</salario>
+        <fecha_contratacion>2021-09-14</fecha_contratacion>
+        <tiempo_completo>true</tiempo_completo>
+    </empleado>
+
+    <empleado id="7">
+        <nombre>Roberto</nombre>
+        <apellido>González</apellido>
+        <posicion>Administrador de Sistemas</posicion>
+        <departamento>
+            <nombre>IT</nombre>
+            <localizacion>Málaga, España</localizacion>
+        </departamento>
+        <salario>48000</salario>
+        <fecha_contratacion>2020-08-03</fecha_contratacion>
+        <tiempo_completo>true</tiempo_completo>
+    </empleado>
+
+    <empleado id="8">
+        <nombre>Carmen</nombre>
+        <apellido>Herrera</apellido>
+        <posicion>Contadora</posicion>
+        <departamento>
+            <nombre>Contabilidad</nombre>
+            <localizacion>Zaragoza, España</localizacion>
+        </departamento>
+        <salario>38000</salario>
+        <fecha_contratacion>2019-12-18</fecha_contratacion>
+        <tiempo_completo>true</tiempo_completo>
+    </empleado>
+
+    <empleado id="9">
+        <nombre>Miguel</nombre>
+        <apellido>Jiménez</apellido>
+        <posicion>Consultor de Ventas</posicion>
+        <departamento>
+            <nombre>Ventas</nombre>
+            <localizacion>Murcia, España</localizacion>
+        </departamento>
+        <salario>40000</salario>
+        <fecha_contratacion>2021-04-25</fecha_contratacion>
+        <tiempo_completo>true</tiempo_completo>
+    </empleado>
+
+    <empleado id="10">
+        <nombre>Isabel</nombre>
+        <apellido>Ruiz</apellido>
+        <posicion>Recursos Humanos</posicion>
+        <departamento>
+            <nombre>RRHH</nombre>
+            <localizacion>Granada, España</localizacion>
+        </departamento>
+        <salario>41000</salario>
+        <fecha_contratacion>2020-10-07</fecha_contratacion>
+        <tiempo_completo>true</tiempo_completo>
+    </empleado>
+
+    <empleado id="11">
+        <nombre>Francisco</nombre>
+        <apellido>Díaz</apellido>
+        <posicion>Desarrollador Frontend</posicion>
+        <departamento>
+            <nombre>Desarrollo de Software</nombre>
+            <localizacion>Madrid, España</localizacion>
+        </departamento>
+        <salario>47000</salario>
+        <fecha_contratacion>2021-02-14</fecha_contratacion>
+        <tiempo_completo>true</tiempo_completo>
+    </empleado>
+
+    <empleado id="12">
+        <nombre>Patricia</nombre>
+        <apellido>Moreno</apellido>
+        <posicion>Especialista en Calidad</posicion>
+        <departamento>
+            <nombre>Control de Calidad</nombre>
+            <localizacion>Valladolid, España</localizacion>
+        </departamento>
+        <salario>39000</salario>
+        <fecha_contratacion>2022-06-30</fecha_contratacion>
+        <tiempo_completo>true</tiempo_completo>
+    </empleado>
+
+    <empleado id="13">
+        <nombre>Antonio</nombre>
+        <apellido>Álvarez</apellido>
+        <posicion>Desarrollador Backend</posicion>
+        <departamento>
+            <nombre>Desarrollo de Software</nombre>
+            <localizacion>Barcelona, España</localizacion>
+        </departamento>
+        <salario>55000</salario>
+        <fecha_contratacion>2019-08-20</fecha_contratacion>
+        <tiempo_completo>true</tiempo_completo>
+    </empleado>
+
+    <empleado id="14">
+        <nombre>Elena</nombre>
+        <apellido>Romero</apellido>
+        <posicion>Asistente de Marketing</posicion>
+        <departamento>
+            <nombre>Marketing</nombre>
+            <localizacion>Bilbao, España</localizacion>
+        </departamento>
+        <salario>28000</salario>
+        <fecha_contratacion>2022-03-12</fecha_contratacion>
+        <tiempo_completo>false</tiempo_completo>
+    </empleado>
+
+    <empleado id="15">
+        <nombre>Javier</nombre>
+        <apellido>Navarro</apellido>
+        <posicion>Especialista en Seguridad</posicion>
+        <departamento>
+            <nombre>IT</nombre>
+            <localizacion>Málaga, España</localizacion>
+        </departamento>
+        <salario>52000</salario>
+        <fecha_contratacion>2020-11-05</fecha_contratacion>
+        <tiempo_completo>true</tiempo_completo>
+    </empleado>
+
+    <empleado id="16">
+        <nombre>Rosa</nombre>
+        <apellido>Torres</apellido>
+        <posicion>Analista Financiero</posicion>
+        <departamento>
+            <nombre>Finanzas</nombre>
+            <localizacion>Valencia, España</localizacion>
+        </departamento>
+        <salario>45000</salario>
+        <fecha_contratacion>2021-01-18</fecha_contratacion>
+        <tiempo_completo>true</tiempo_completo>
+    </empleado>
+
+    <empleado id="17">
+        <nombre>Manuel</nombre>
+        <apellido>Vargas</apellido>
+        <posicion>Desarrollador DevOps</posicion>
+        <departamento>
+            <nombre>Desarrollo de Software</nombre>
+            <localizacion>Sevilla, España</localizacion>
+        </departamento>
+        <salario>60000</salario>
+        <fecha_contratacion>2018-09-10</fecha_contratacion>
+        <tiempo_completo>true</tiempo_completo>
+    </empleado>
+
+    <empleado id="18">
+        <nombre>Mónica</nombre>
+        <apellido>Ramos</apellido>
+        <posicion>Especialista en Atención al Cliente</posicion>
+        <departamento>
+            <nombre>Atención al Cliente</nombre>
+            <localizacion>Zaragoza, España</localizacion>
+        </departamento>
+        <salario>32000</salario>
+        <fecha_contratacion>2022-05-08</fecha_contratacion>
+        <tiempo_completo>false</tiempo_completo>
+    </empleado>
+
+    <empleado id="19">
+        <nombre>Álvaro</nombre>
+        <apellido>Molina</apellido>
+        <posicion>Arquitecto de Software</posicion>
+        <departamento>
+            <nombre>Desarrollo de Software</nombre>
+            <localizacion>Madrid, España</localizacion>
+        </departamento>
+        <salario>75000</salario>
+        <fecha_contratacion>2017-04-15</fecha_contratacion>
+        <tiempo_completo>true</tiempo_completo>
+    </empleado>
+
+    <empleado id="20">
+        <nombre>Cristina</nombre>
+        <apellido>Herrero</apellido>
+        <posicion>Coordinadora de Proyectos</posicion>
+        <departamento>
+            <nombre>Gestión de Proyectos</nombre>
+            <localizacion>Granada, España</localizacion>
+        </departamento>
+        <salario>50000</salario>
+        <fecha_contratacion>2020-06-22</fecha_contratacion>
+        <tiempo_completo>true</tiempo_completo>
+    </empleado>
+</registro_empleados>

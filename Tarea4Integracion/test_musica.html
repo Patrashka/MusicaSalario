@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruebas de Transformaciones XSLT - Música</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f5f5f5; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .test-section { background: white; padding: 20px; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .test-title { color: #007bff; font-size: 18px; font-weight: bold; margin-bottom: 10px; }
+        .test-description { color: #666; margin-bottom: 15px; }
+        .test-link { display: inline-block; background: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin: 5px; }
+        .test-link:hover { background: #0056b3; }
+        h1 { text-align: center; color: #333; }
+        .instructions { background: #e3f2fd; padding: 15px; border-radius: 8px; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎵 Pruebas de Transformaciones XSLT - Catálogo de Música</h1>
+        
+        <div class="instructions">
+            <h3>📋 Instrucciones para probar:</h3>
+            <ol>
+                <li>Haz clic en cada enlace de prueba</li>
+                <li>Se abrirá una nueva pestaña con la transformación</li>
+                <li>Verifica que la transformación funcione correctamente</li>
+                <li>Si no funciona, verifica que los archivos XML y XSL estén en la misma carpeta</li>
+            </ol>
+        </div>
+
+        <div class="test-section">
+            <div class="test-title">1. Agrupar álbumes por artista</div>
+            <div class="test-description">Transforma el XML agrupando álbumes por artista con información de país de origen</div>
+            <a href="catalogo_musica.xml" class="test-link" target="_blank">Ver XML Original</a>
+            <a href="transformacion1_agrupar_por_artista.xsl" class="test-link" target="_blank">Ver XSL</a>
+        </div>
+
+        <div class="test-section">
+            <div class="test-title">2. Duración total de canciones</div>
+            <div class="test-description">Muestra tabla HTML con duración de canciones y total por álbum</div>
+            <a href="transformacion2_duracion_total.xsl" class="test-link" target="_blank">Ver XSL</a>
+        </div>
+
+        <div class="test-section">
+            <div class="test-title">3. Filtrar solo sencillos</div>
+            <div class="test-description">Filtra y muestra únicamente las canciones que son sencillos</div>
+            <a href="transformacion3_filtrar_sencillos.xsl" class="test-link" target="_blank">Ver XSL</a>
+        </div>
+
+        <div class="test-section">
+            <div class="test-title">4. Índice alfabético de artistas</div>
+            <div class="test-description">Crea índice alfabético con álbumes ordenados por año</div>
+            <a href="transformacion4_indice_alfabetico.xsl" class="test-link" target="_blank">Ver XSL</a>
+        </div>
+
+        <div class="test-section">
+            <div class="test-title">5. Filtrar por género musical</div>
+            <div class="test-description">Filtra álbumes por género específico (configurable en el XSL)</div>
+            <a href="transformacion5_filtrar_por_genero.xsl" class="test-link" target="_blank">Ver XSL</a>
+        </div>
+
+        <div class="instructions">
+            <h3>🔧 Para probar las transformaciones:</h3>
+            <p><strong>Opción A:</strong> Usa un navegador que soporte XSLT (Firefox, Chrome con extensión)</p>
+            <p><strong>Opción B:</strong> Usa herramientas online como <a href="https://www.freeformatter.com/xsl-transformer.html" target="_blank">FreeFormatter XSL Transformer</a></p>
+            <p><strong>Opción C:</strong> Usa herramientas de línea de comandos (ver instrucciones abajo)</p>
+        </div>
+    </div>
+</body>
+</html>

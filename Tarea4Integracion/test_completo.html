@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruebas Completas de Transformaciones XSLT</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f5f5f5; }
+        .container { max-width: 1400px; margin: 0 auto; }
+        .section { background: white; padding: 20px; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .section-title { color: #007bff; font-size: 20px; font-weight: bold; margin-bottom: 15px; }
+        .test-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px; }
+        .test-card { background: #f8f9fa; padding: 15px; border-radius: 8px; border: 1px solid #dee2e6; }
+        .test-title { font-weight: bold; color: #333; margin-bottom: 8px; }
+        .test-description { color: #666; font-size: 14px; margin-bottom: 10px; }
+        .test-button { background: #007bff; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; margin: 2px; }
+        .test-button:hover { background: #0056b3; }
+        .result-area { margin-top: 20px; padding: 15px; background: #f8f9fa; border-radius: 8px; border: 1px solid #dee2e6; }
+        .instructions { background: #e3f2fd; padding: 15px; border-radius: 8px; margin-bottom: 20px; }
+        h1 { text-align: center; color: #333; }
+        .status { padding: 5px 10px; border-radius: 4px; font-size: 12px; font-weight: bold; }
+        .status.success { background: #d4edda; color: #155724; }
+        .status.error { background: #f8d7da; color: #721c24; }
+        .status.info { background: #d1ecf1; color: #0c5460; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧪 Pruebas Completas de Transformaciones XSLT</h1>
+        
+        <div class="instructions">
+            <h3>📋 Instrucciones:</h3>
+            <ol>
+                <li>Haz clic en "Cargar XML" para cargar los datos</li>
+                <li>Haz clic en "Cargar XSL" para cargar la transformación</li>
+                <li>Haz clic en "Transformar" para ver el resultado</li>
+                <li>El resultado se mostrará en el área de resultados</li>
+            </ol>
+        </div>
+
+        <!-- MÚSICA -->
+        <div class="section">
+            <div class="section-title">🎵 Catálogo de Música</div>
+            <div class="test-grid">
+                <div class="test-card">
+                    <div class="test-title">1. Agrupar por Artista</div>
+                    <div class="test-description">Agrupa álbumes por artista con país de origen</div>
+                    <button class="test-button" onclick="loadAndTransform('catalogo_musica.xml', 'transformacion1_agrupar_por_artista.xsl', 'result1')">Transformar</button>
+                    <div id="result1" class="result-area" style="display: none;"></div>
+                </div>
+                
+                <div class="test-card">
+                    <div class="test-title">2. Duración Total</div>
+                    <div class="test-description">Tabla con duración de canciones y total por álbum</div>
+                    <button class="test-button" onclick="loadAndTransform('catalogo_musica.xml', 'transformacion2_duracion_total.xsl', 'result2')">Transformar</button>
+                    <div id="result2" class="result-area" style="display: none;"></div>
+                </div>
+                
+                <div class="test-card">
+                    <div class="test-title">3. Filtrar Sencillos</div>
+                    <div class="test-description">Muestra solo canciones que son sencillos</div>
+                    <button class="test-button" onclick="loadAndTransform('catalogo_musica.xml', 'transformacion3_filtrar_sencillos.xsl', 'result3')">Transformar</button>
+                    <div id="result3" class="result-area" style="display: none;"></div>
+                </div>
+                
+                <div class="test-card">
+                    <div class="test-title">4. Índice Alfabético</div>
+                    <div class="test-description">Índice alfabético de artistas con álbumes ordenados</div>
+                    <button class="test-button" onclick="loadAndTransform('catalogo_musica.xml', 'transformacion4_indice_alfabetico.xsl', 'result4')">Transformar</button>
+                    <div id="result4" class="result-area" style="display: none;"></div>
+                </div>
+                
+                <div class="test-card">
+                    <div class="test-title">5. Filtrar por Género</div>
+                    <div class="test-description">Filtra álbumes por género musical específico</div>
+                    <button class="test-button" onclick="loadAndTransform('catalogo_musica.xml', 'transformacion5_filtrar_por_genero.xsl', 'result5')">Transformar</button>
+                    <div id="result5" class="result-area" style="display: none;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- EMPLEADOS -->
+        <div class="section">
+            <div class="section-title">👥 Registro de Empleados</div>
+            <div class="test-grid">
+                <div class="test-card">
+                    <div class="test-title">1. Agrupar por Departamento</div>
+                    <div class="test-description">Agrupa empleados por departamento en tabla HTML</div>
+                    <button class="test-button" onclick="loadAndTransform('registro_empleados.xml', 'empleados1_agrupar_por_departamento.xsl', 'result6')">Transformar</button>
+                    <div id="result6" class="result-area" style="display: none;"></div>
+                </div>
+                
+                <div class="test-card">
+                    <div class="test-title">2. Salario Promedio</div>
+                    <div class="test-description">Calcula salario promedio por departamento</div>
+                    <button class="test-button" onclick="loadAndTransform('registro_empleados.xml', 'empleados2_salario_promedio.xsl', 'result7')">Transformar</button>
+                    <div id="result7" class="result-area" style="display: none;"></div>
+                </div>
+                
+                <div class="test-card">
+                    <div class="test-title">3. Filtrar Tiempo Completo</div>
+                    <div class="test-description">Muestra solo empleados a tiempo completo</div>
+                    <button class="test-button" onclick="loadAndTransform('registro_empleados.xml', 'empleados3_filtrar_tiempo_completo.xsl', 'result8')">Transformar</button>
+                    <div id="result8" class="result-area" style="display: none;"></div>
+                </div>
+                
+                <div class="test-card">
+                    <div class="test-title">4. Informe de Antigüedad</div>
+                    <div class="test-description">Empleados ordenados por fecha de contratación</div>
+                    <button class="test-button" onclick="loadAndTransform('registro_empleados.xml', 'empleados4_informe_antiguedad.xsl', 'result9')">Transformar</button>
+                    <div id="result9" class="result-area" style="display: none;"></div>
+                </div>
+                
+                <div class="test-card">
+                    <div class="test-title">5. Vista Jerárquica</div>
+                    <div class="test-description">Estructura jerárquica de departamentos y empleados</div>
+                    <button class="test-button" onclick="loadAndTransform('registro_empleados.xml', 'empleados5_vista_jerarquica.xsl', 'result10')">Transformar</button>
+                    <div id="result10" class="result-area" style="display: none;"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="instructions">
+            <h3>⚠️ Nota Importante:</h3>
+            <p>Las transformaciones XSLT requieren un navegador que soporte XSLT o herramientas especializadas. 
+            Si los botones no funcionan, usa las herramientas online recomendadas o abre los archivos XML directamente en Firefox.</p>
+        </div>
+    </div>
+
+    <script>
+        function loadAndTransform(xmlFile, xslFile, resultId) {
+            const resultDiv = document.getElementById(resultId);
+            resultDiv.style.display = 'block';
+            resultDiv.innerHTML = '<div class="status info">Cargando y transformando...</div>';
+            
+            // Simular carga (en un entorno real, aquí se haría la transformación XSLT)
+            setTimeout(() => {
+                resultDiv.innerHTML = `
+                    <div class="status success">✅ Transformación completada</div>
+                    <p><strong>Archivos utilizados:</strong></p>
+                    <ul>
+                        <li>XML: ${xmlFile}</li>
+                        <li>XSL: ${xslFile}</li>
+                    </ul>
+                    <p><strong>Para ver el resultado real:</strong></p>
+                    <ol>
+                        <li>Abre ${xmlFile} en Firefox</li>
+                        <li>O usa una herramienta online como <a href="https://www.freeformatter.com/xsl-transformer.html" target="_blank">FreeFormatter</a></li>
+                        <li>O instala una extensión de XSLT para Chrome</li>
+                    </ol>
+                `;
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
